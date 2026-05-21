@@ -39,6 +39,23 @@ header {
                         color: #FFFFFF;
                     }
                 }
+
+                select {
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    color: #282829;
+                    border: none;
+                    padding: 5px;
+                    transition: all 1s ease-in-out;
+                }
+                select:hover{
+                    width: 80px;
+                    color: #FFFFFF;
+                    background: #282829;
+                    transform: scale(1.2);
+                }
             }
         }
     }
