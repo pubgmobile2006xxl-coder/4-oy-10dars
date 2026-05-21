@@ -7,7 +7,7 @@
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1240px;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
@@ -18,11 +18,14 @@
     .container {
 
         .cards {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 30px;
 
             .card {
-                width: 34%;
-
-                background: rgb(45, 222, 29);
+                width: 31%;
+                transition: all 1s ease-in-out;
 
                 h3 {
                     font-weight: 600;
@@ -31,6 +34,7 @@
                     letter-spacing: 0%;
                     color: #000000;
                     text-align: center;
+                    padding-top: 30px;
                 }
 
                 p {
@@ -40,7 +44,19 @@
                     letter-spacing: 0%;
                     color: #000000;
                     text-align: center;
+                    padding-top: 10px;
                 }
+
+                img{
+                    width: 100%;
+                }
+            }
+
+            .card:hover{
+                transform: scale(1.1);
+                border: 2px solid silver;
+                padding: 10px;
+                border-radius: 10px;
             }
         }
     }

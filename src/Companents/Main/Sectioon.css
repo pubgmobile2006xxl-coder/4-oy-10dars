@@ -7,15 +7,21 @@
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1240px;
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;
 }
 
+.section .container .cards {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
 .section .container .cards .card {
-  width: 34%;
-  background: rgb(45, 222, 29);
+  width: 31%;
+  transition: all 1s ease-in-out;
 }
 .section .container .cards .card h3 {
   font-weight: 600;
@@ -24,6 +30,7 @@
   letter-spacing: 0%;
   color: #000000;
   text-align: center;
+  padding-top: 30px;
 }
 .section .container .cards .card p {
   font-weight: 400;
@@ -32,4 +39,14 @@
   letter-spacing: 0%;
   color: #000000;
   text-align: center;
+  padding-top: 10px;
+}
+.section .container .cards .card img {
+  width: 100%;
+}
+.section .container .cards .card:hover {
+  transform: scale(1.1);
+  border: 2px solid silver;
+  padding: 10px;
+  border-radius: 10px;
 }/*# sourceMappingURL=Sectioon.css.map */
