@@ -22,14 +22,13 @@ const Header = () => {
                         <li><a href="#">{t("header.Services")}</a></li>
                         <li><a href="#">{t("header.Work")}</a></li>
                         <li><a href="#">{t("header.Blog")}</a></li>
+                        
+                        <select onChange={handleChangLanguage} value={i18n.language || "uz"}>
+                            <option value="uz">Uz</option>
+                            <option value="ru">Rus</option>
+                            <option value="en">Eng</option>
+                        </select>
                     </ul>
-
-
-                    <select onChange={handleChangLanguage} value={i18n.language || "uz"}>
-                        <option value="uz">Uz</option>
-                        <option value="ru">Rus</option>
-                        <option value="en">Eng</option>
-                    </select>
                 </div>
             </div>
         </header>
