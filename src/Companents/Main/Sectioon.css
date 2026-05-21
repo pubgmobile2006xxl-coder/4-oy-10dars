@@ -49,4 +49,19 @@
   border: 2px solid silver;
   padding: 10px;
   border-radius: 10px;
+}
+
+@media (max-width: 910px) {
+  .section .container .cards .card {
+    width: 46%;
+  }
+}
+@media (max-width: 565px) {
+  .section .container .cards .card {
+    width: 100%;
+    transition: all 1s ease-in-out;
+  }
+  .section .container .cards .card:hover {
+    transform: scale(1);
+  }
 }/*# sourceMappingURL=Sectioon.css.map */

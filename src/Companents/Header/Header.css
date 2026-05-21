@@ -49,4 +49,10 @@ header .container .navbar ul select:hover {
   color: #FFFFFF;
   background: #282829;
   transform: scale(1.2);
+}
+
+@media (max-width: 790px) {
+  header .container .navbar ul li {
+    display: none;
+  }
 }/*# sourceMappingURL=Header.css.map */

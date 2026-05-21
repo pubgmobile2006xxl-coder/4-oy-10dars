@@ -60,3 +60,20 @@ header {
         }
     }
 }
+
+
+@media (max-width: 790px) {
+    header {
+        .container {
+            .navbar {
+
+                ul {
+                    
+                    li{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
