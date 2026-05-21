@@ -1,0 +1,39 @@
+import React from 'react';
+import './Header.css';
+import grop from '../../assets/Group 1.png'
+import { useTranslation } from 'react-i18next';
+
+const Header = () => {
+    const { t, i18n } = useTranslation();
+
+    const handleChangLanguage = (event) => {
+        i18n.changeLanguage(event.target.value);
+    };
+
+    return (
+        <header>
+            <div className="container">
+                <div className="navbar">
+                    <img src={grop} alt="rasm" />
+
+                    <ul>
+                        <li><a href="#">{t("header.Home")}</a></li>
+                        <li><a href="#">{t("header.About")}</a></li>
+                        <li><a href="#">{t("header.Services")}</a></li>
+                        <li><a href="#">{t("header.Work")}</a></li>
+                        <li><a href="#">{t("header.Blog")}</a></li>
+                    </ul>
+
+
+                    <select onChange={handleChangLanguage} value={i18n.language || "uz"}>
+                        <option value="uz">Uz</option>
+                        <option value="ru">Rus</option>
+                        <option value="en">Eng</option>
+                    </select>
+                </div>
+            </div>
+        </header>
+    );
+};
+
+export default Header;
