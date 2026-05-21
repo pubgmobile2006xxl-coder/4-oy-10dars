@@ -11,4 +11,25 @@
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.section .container .cards .card {
+  width: 34%;
+  background: rgb(45, 222, 29);
+}
+.section .container .cards .card h3 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000000;
+  text-align: center;
+}
+.section .container .cards .card p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 0%;
+  color: #000000;
+  text-align: center;
 }/*# sourceMappingURL=Sectioon.css.map */
