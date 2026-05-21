@@ -26,4 +26,11 @@ header .container .navbar ul {
   display: flex;
   align-items: center;
   gap: 30px;
+}
+header .container .navbar ul li a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
 }/*# sourceMappingURL=Header.css.map */
