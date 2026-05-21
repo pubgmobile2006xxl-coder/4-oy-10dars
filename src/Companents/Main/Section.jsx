@@ -1,5 +1,4 @@
 import './Section.css';
-import grop from '../../assets/Group 1.png'
 import { useTranslation } from 'react-i18next';
 
 import React from 'react'
