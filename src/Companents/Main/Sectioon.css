@@ -1,1 +1,28 @@
-/*# sourceMappingURL=Sectioon.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+section .container {
+  text-align: center;
+}
+section .container h1 {
+  width: 50%;
+  font-weight: 500;
+  font-size: 88px;
+  margin: 0 auto;
+  line-height: 93px;
+  letter-spacing: 0%;
+  color: #000000;
+  padding: 114px 0;
+}/*# sourceMappingURL=Sectioon.css.map */
